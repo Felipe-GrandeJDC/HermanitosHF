@@ -1,0 +1,30 @@
+<section class="dst-block">[[Snippet.ContentHeader]]
+<div class="dst-content">[[PageSnippet.content1]]</div>
+<a class="lead-button" href="/apply-for-a-job-with-us--xcareers">[[Text.txt-button]]</a></section>
+
+.available-jobs{
+    .dst-block{
+        .dst-content{
+            hr{
+                margin: round(@grid-width10 * 2)auto;
+                border: 0;
+                height: 2px;
+                background-image: -webkit-linear-gradient(left, fade(@brand-primary, 0%), fade(@brand-primary,75%), fade(@brand-primary, 0%));
+                background-image: -o-linear-gradient(left, fade(@brand-primary, 0%), fade(@brand-primary,75%), fade(@brand-primary, 0%));
+                background-image: linear-gradient(to right, fade(@brand-primary, 0%), fade(@brand-primary,75%), fade(@brand-primary, 0%));
+            }
+            ul{
+                .ul-cols;
+                li{
+                    .make-cols;
+                    .li-cols;
+                    .li-before('\f105');
+                    text-align: left;
+                    @media(min-width: 320px){
+                        float: left;
+                    }
+                }
+            }
+        }
+    }
+}
